@@ -1,0 +1,111 @@
+.container {
+    padding: 0;
+}
+.row {
+    margin: 0;
+}
+@media (min-width: 768px) and (max-width: 1036px) {
+    body {
+        background:url("../images/dinoback.jpg")no-repeat;
+    }
+    .container {
+        width: 100%;
+    }
+    .overallContainer {
+        width: 100%;
+        margin: 0 auto;
+    }
+    @media only screen and (max-width: 768px) {
+        .overallContainer {
+            padding: 0;
+        }
+        
+    }
+    @media only screen and (min-width: 1400px) {
+        .container {
+            width: 1400px;
+        }
+    }
+    @media only screen and (min-width: 1200px) {
+        .overallContainer {
+            /*width: 1200px;*/
+        }
+    }
+    
+    }
+
+    
+    /*.glyphicon {
+        margin-right: 5px;
+    }*/
+    
+    .listblock,
+    .detailblock {
+         background:url("../images/dinoback.jpg")no-repeat;
+        width: 40%;
+        display: inline-block;
+    }
+    .listblock > .row {
+        border: 3px solid black;
+    }
+    @media only screen and (max-width: 736px) {
+        .detailblock {
+            display: none;
+
+        }
+        .container .listblock {
+            width: 100%;
+            display: block;
+        }
+    }
+    .listblock p {
+        margin: 2% 5%;
+    }
+    .listblock p > a {
+        font-size: 2em;
+        font-weight: bold;
+    }
+    .detailblock {
+        height: 100%;
+        vertical-align: top;
+        padding: 10px;
+    }
+    .detailblock .detailHead,
+    .seperateDiv .detailHead {
+        font-weight: bold;
+        text-transform: uppercase;
+        text-decoration: underline;
+        margin-bottom: 10px;
+        font-size: 2em;
+    }
+    table {
+        border: 1px solid black;
+        width: 100%;
+    }
+    td {
+        padding: 10px;
+    }
+    .listblock .row a {
+        text-transform: capitalize;
+    }
+    .seperateDiv {
+        display: none;
+        position: absolute;
+        top: 0px;
+        width: 100%;
+        z-index: 9;
+         background:url("../images/dinoback.jpg")no-repeat;
+        height: 100%;
+        overflow: hidden;
+    }
+    .centerblock {
+        text-align: center;
+        margin: 10px 0px;
+        position: absolute;
+        top: 0;
+        right: 21px;
+    }
+    .btn-info{
+        margin-top: 350px;
+        margin-right: 170px;
+    }
